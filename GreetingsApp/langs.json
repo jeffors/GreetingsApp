@@ -1,0 +1,28 @@
+{
+  "LangMessages": {
+    "English": {
+      "Morning": "Good Morning",
+      "Day": "Good Day",
+      "Evening": "Good Evening",
+      "Night": "Good Night"
+    },
+    "Deutsch": {
+      "Morning": "Guten Morgen",
+      "Day": "Guten Tag",
+      "Evening": "Guten Abend",
+      "Night": "Gute Nacht"
+    },
+    "Русский": {
+      "Morning": "Доброе утро",
+      "Day": "Добрый день",
+      "Evening": "Добрый вечер",
+      "Night": "Доброй ночи"
+    },
+    "Татарча": {
+      "Morning": "Хәерле иртә",
+      "Day": "Хәерле көн",
+      "Evening": "Хәерле кич",
+      "Night": "Хәерле төн"
+    }
+  }
+}

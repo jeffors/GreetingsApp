@@ -5,8 +5,14 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+	<Nullable>disable</Nullable>
+	
   </PropertyGroup>
 
-  
+  <ItemGroup>
+    <None Update="langs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>

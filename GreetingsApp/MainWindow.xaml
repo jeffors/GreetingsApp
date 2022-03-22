@@ -5,17 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GreetingsApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="130" Width="225">
     <Grid>
-        <Label x:Name="greetingsMessage" Content="Hello" HorizontalAlignment="Center" Margin="0,63,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,0.579"/>
-        <ComboBox x:Name="cmb" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cmb_SelectionChanged">
-            <ComboBoxItem Content="English" IsSelected="True"/>
-            <ComboBoxItem Content="Deutsch"/>
-            <ComboBoxItem Content="Русский"/>
-            <ComboBoxItem Content="Татарча"/>
+        
+        <Label x:Name="greetingsMessage" Content="Hello" HorizontalAlignment="Left" Margin="10,37,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.263,0.579" Width="185" FontSize="16" FontStretch="Medium" HorizontalContentAlignment="Center" Grid.ColumnSpan="2"/>
+        <ComboBox x:Name="cmb" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="185" SelectionChanged="cmb_SelectionChanged" Grid.ColumnSpan="2">
+
         </ComboBox>
-        <TextBox x:Name="jsonBox" HorizontalAlignment="Center" Margin="0,159,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="636" Height="245"/>
-
-
     </Grid>
 </Window>
