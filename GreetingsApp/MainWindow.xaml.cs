@@ -30,7 +30,7 @@ namespace GreetingsApp
 
             greetingsMessage.Content = hourNow switch
             {
-                >= 5 and < 10 => langs[cmb.SelectedValue.ToString()].Evening,
+                >= 5 and < 10 => langs[cmb.SelectedValue.ToString()].Morning,
                 >= 10 and < 18 => langs[cmb.SelectedValue.ToString()].Day,
                 >= 18 and < 23 => langs[cmb.SelectedValue.ToString()].Evening,
                 >= 23 or < 5 => langs[cmb.SelectedValue.ToString()].Night,
